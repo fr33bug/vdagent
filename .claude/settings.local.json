@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_basic.py)",
+      "Bash(python3 test_basic.py)",
+      "Bash(pip3 install pydantic openai python-magic requests)",
+      "Bash(python3 -m venv venv)",
+      "Bash(source venv/bin/activate && pip install pydantic openai python-magic requests)",
+      "Bash(source venv/bin/activate && python test_basic.py)",
+      "Bash(source venv/bin/activate && pip install pydantic-settings)",
+      "Bash(source venv/bin/activate && pip install -e .)",
+      "Bash(source venv/bin/activate && python -m vdagent --help)",
+      "Bash(source venv/bin/activate && python demo.py)",
+      "Bash(source venv/bin/activate && python -c \"import sys; print\\('\\\\n'.join\\(sys.path\\)\\)\")",
+      "Bash(source venv/bin/activate && find /mnt/e/VRS/VDAgent/venv -name \"*vdagent*\" -type d)",
+      "Bash(mkdir -p vdagent && cp -r core integrations models analyzers utils config __init__.py __main__.py vdagent/ 2>/dev/null || true)",
+      "Bash(source venv/bin/activate && pip install -e . --force-reinstall)",
+      "Bash(source venv/bin/activate && python -c \"import vdagent; print\\('vdagent imported successfully'\\)\")"
+    ]
+  }
+}

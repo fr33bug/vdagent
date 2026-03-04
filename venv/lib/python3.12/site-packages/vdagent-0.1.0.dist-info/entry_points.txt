@@ -1,0 +1,2 @@
+[console_scripts]
+vdagent = vdagent.__main__:main
