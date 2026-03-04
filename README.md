@@ -1,4 +1,4 @@
-# Vulnerability Detection Agent (VDAgent)
+# Vulnerability Detection Agent (VDAgent) - Experimental
 
 AI-powered automated vulnerability detection agent for binary analysis.
 
